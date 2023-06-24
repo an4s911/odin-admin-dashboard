@@ -29,7 +29,7 @@ header {
 
     align-items: center;
 
-    padding: 10px 45px;
+    padding: 35px 50px;
     gap: 15px;
 }
 
@@ -53,11 +53,12 @@ header {
     align-items: center;
     justify-content: start;
     gap: 15px;
+    font-size: larger;
 }
 
 .welcome img {
     grid-area: logo;
-    width: 60px;
+    /* width: 100px; */
 }
 
 .welcome .greeting {
@@ -66,7 +67,7 @@ header {
 
 img.logo {
     border-radius: 100%;
-    max-width: 50px;
+    max-width: 68px;
 }
 
 .search {
