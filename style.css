@@ -198,6 +198,26 @@ main > article.projects {
     align-self: start;
 }
 
+menu.actions li {
+    cursor: pointer;
+}
+
+.notification {
+    cursor: pointer;
+}
+
+.search-bar {
+    cursor: text;
+}
+
+nav.dashboard ul li {
+    cursor: pointer;
+}
+
+.profile {
+    cursor: pointer;
+}
+
 .card .actions {
     align-self: center;
     justify-self: end;
@@ -206,6 +226,12 @@ main > article.projects {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
+
+    user-select: none;
+}
+
+.card .actions span {
+    cursor: pointer;
 }
 
 main > aside > div > article,
